@@ -9,6 +9,10 @@ import java.util.Random;
  */
 
 public class BasicSort {
+    
+    /**
+    *  插入排序
+    /*
     public static void insertionSort(int[] arr){
         for( int i=0; i<arr.length-1; i++ ) {
             for( int j=i+1; j>0; j-- ) {
